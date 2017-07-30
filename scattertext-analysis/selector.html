@@ -2,20 +2,10 @@
 <html><body>
 <h2 style="font-family: Helvetica, Arial, Sans-Serif">See how language use differed among ACL 2017 tracks and workshops</h2>
 <div style="font-family: Helvetica, Arial, Sans-Serif">
-For an introduction to language analysis using Scattertext, please see:
-<ul>
-<li>The ACL 2017 Demo paper <a href="https://arxiv.org/abs/1703.00565">here</a>.</li>
-<li>The Youtube video of the 2017 PyData <a href="https://www.youtube.com/watch?v=H7X9CA2pWKoa">talk</a>.</li>
-<li>Scattertext's Github <a href="https://github.com/JasonKessler/scattertext">repo</a>.</li>
-<li>The source notebook for this analysis <a href="https://github.com/JasonKessler/scattertext">repo</a>.</li>
-</ul>
-Cite as: 
-<pre>Jason S. Kessler. Scattertext: a Browser-Based Tool for Visualizing how Corpora Differ. ACL System Demonstrations. Vancouver, BC. 2017.</pre>
-</div> 
-<form><select id=selector" onchange="document.getElementById('myiframe').src = this.options[this.selectedIndex].value">
+<form><b>Select a track or workshop:</b><select id=selector" onchange="document.getElementById('myiframe').src = this.options[this.selectedIndex].value">
 <option>Select a track or workshop:</option>
 <option value="ALW1.html">ALW1</option>
-<option value="BioNLP.html">BioNLP</option>
+<option value="BioNLP.html" selected>BioNLP</option>
 <option value="BUCC.html">BUCC</option>
 <option value="CLPsych.html">CLPsych</option>
 <option value="CoNLL.html">CoNLL</option>
@@ -33,4 +23,4 @@ Cite as:
 <option value="starSEM.html">starSEM</option>
 <option value="TextGraphs-11.html">TextGraphs-11</option>
 
-</select></form><iframe name="myiframe" id="myiframe" width=1200 height=800 src=""></iframe></body></html>
+</select></form><iframe name="myiframe" id="myiframe" width=1200 height=800 src="BioNLP.html"></iframe></body></html>
